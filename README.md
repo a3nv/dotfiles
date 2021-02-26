@@ -3,6 +3,7 @@
 ## List of configs
 
 - xmonad
+- .vimrc
 
 ## Setup from scratch
 
