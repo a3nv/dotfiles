@@ -15,3 +15,8 @@ export HISTFILE=~/.cache/zsh/history
 setopt appendhistory # append history to the history file (without overwriting)
 setopt sharehistory # share history across terminals
 setopt incappendhistory # immediately append to the history file, do not wait for terminal to be closed
+
+######################################
+# less 
+######################################
+export LESSHISTFILE=-
