@@ -1,0 +1,9 @@
+import sys
+
+# Disable history in interactive shell (... but also it disables auto-completeion ... )
+
+if hasattr(sys, '__interactivehook__'):
+	del sys.__interactivehook__
+
+# do not forget to export file in your shell 
+# export PYTHONSTARTUP=~/.pythonrc
