@@ -22,3 +22,20 @@ Is a configuration for interactive shell. Since the version 3+ (not sure) there 
 #### Ranger setup
 
 After renger is installed on your computer do not forget to run `ranger --copy-config=all` command. It will copy default settings to the home folder `~/.config/ranger`. Please see tha manual for an additional information [wiki.archlinux.org](https://wiki.archlinux.org/index.php/ranger)
+
+
+## Dotfiles from scratch
+
+```bash
+docker build -t dotfiles-test .
+docker run -it dotfiles-test
+
+
+# Inside the Docker container, verify the installations and configurations
+
+nvim --version
+tmux -V
+nvim
+tmux
+
+```

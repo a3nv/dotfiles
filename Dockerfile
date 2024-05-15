@@ -11,7 +11,7 @@ USER user
 WORKDIR /home/user
 
 # Clone the dotfiles repository
-RUN git clone https://github.com/yourusername/dotfiles.git
+RUN git clone https://github.com/a3nv/dotfiles.git
 
 # Run the install and setup scripts
 RUN cd dotfiles && ./install.sh && ./setup.sh
