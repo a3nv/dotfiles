@@ -1,5 +1,5 @@
 -- Basic neovim config
-
+require("a3nv")
 -- set line numbers
 vim.opt.number = true
 
