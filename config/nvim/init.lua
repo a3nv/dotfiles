@@ -1,5 +1,8 @@
+print('main init.lua loaded')
+
 -- Basic neovim config
-require("a3nv")
+require('a3nv')
+require('a3nv.remap')
 -- set line numbers
 vim.opt.number = true
 
