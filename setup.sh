@@ -1,5 +1,6 @@
 #!/bin/bash
-
+LOG_FILE="/tmp/dotfiles_setup.log"
+exec > >(tee -a $LOG_FILE) 2>&1
 DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # Create necessary directories
