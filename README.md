@@ -28,7 +28,7 @@ After renger is installed on your computer do not forget to run `ranger --copy-c
 
 ```bash
 docker build --no-cache -t dotfiles-test .
-docker run --name dotfiles-container -it dotfiles-test
+docker run --name dotfiles-container -it dotfiles
 
 
 # Inside the Docker container, verify the installations and configurations
