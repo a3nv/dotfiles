@@ -1,2 +1,10 @@
 require("a3nv.remap")
-print("hello from inside")
+require("a3nv.packer")
+vim.g.user42 = 'iasonov'
+vim.g.mail42 = 'iasonov@student.42prague.com'
+
+vim.o.laststatus = 2
+
+vim.cmd('colorscheme onedark')
+
+vim.api.nvim_set_keymap('n', '<C-n>', ':NERDTreeToggle<CR>', { noremap = true, silent = true })

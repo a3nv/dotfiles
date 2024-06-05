@@ -1,11 +1,16 @@
 require("a3nv")
+-- Show whitespace characters
+vim.opt.list = true
+vim.opt.listchars = {
+    tab = '>~',
+    trail = '~',
+    extends = '>',
+    precedes = '<',
+    space = '·',
+    eol = '¬'
+}
+-- Enable relative numbering
+vim.opt.relativenumber = true
+-- Show the actual number for the current line
+vim.opt.number = true
 
--- Assuming additional config files are in .config/nvim/lua/
-local load_config = function()
-    local config_files = { "remap.lua", "packer.lua" } -- add your Lua files
-    for _, file in ipairs(config_files) do
-        require(file)
-    end
-end
-
-load_config()

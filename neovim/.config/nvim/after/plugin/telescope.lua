@@ -7,3 +7,4 @@ vim.keymap.set('n', '<leader>ps', function()
     local input = vim.fn.input("Grep > ")
     builtin.grep_string({ search = input })
 end)
+
