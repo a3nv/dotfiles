@@ -10,7 +10,8 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
   use '42Paris/42header'
-  use 'joshdick/onedark.vim'
+  --use 'joshdick/onedark.vim'
+  use 'Mofiqul/dracula.nvim'
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   if packer_bootstrap then
 	require('packer').sync()
