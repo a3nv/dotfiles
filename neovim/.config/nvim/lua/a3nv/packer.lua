@@ -11,7 +11,8 @@ return require('packer').startup(function(use)
   }
   use '42Paris/42header'
 --  use 'joshdick/onedark.vim'
-  use 'Mofiqul/dracula.nvim'
+--  use 'Mofiqul/dracula.nvim'
+  use { 'catppuccin/nvim', as = 'catppuccin' }
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   if packer_bootstrap then
 	require('packer').sync()

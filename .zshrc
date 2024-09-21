@@ -7,12 +7,12 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-export PATH=/Users/a3nv/development/flutter/bin:$HOME/bin:/usr/local/mysql:/usr/local/mysql/bin:/usr/local/mysql/lib:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-export PATH="$PATH":"/Library/Frameworks/Python.framework/Versions/3.7/bin"
+#export PATH=/Users/a3nv/development/flutter/bin:$HOME/bin:/usr/local/mysql:/usr/local/mysql/bin:/usr/local/mysql/lib:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
+#export PATH="$PATH":"$HOME/.pub-cache/bin"
+#export PATH="$PATH":"/Library/Frameworks/Python.framework/Versions/3.7/bin"
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+# export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -84,7 +84,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git colored-man-pages colorize pip python brew macos)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -118,9 +118,9 @@ export LC_ALL=en_US.UTF-8
 
 
 ##### CUSTOM #####
-alias ll="exa -algh --icons"
-alias tree="exa --tree"
-alias franc="~/francinette/tester.sh"
+alias ll="eza -algh --icons"
+alias tree="eza --tree"
+#alias franc="~/francinette/tester.sh"
 
 ######################################
 # Suppress ssh warnings
@@ -148,7 +148,7 @@ export LESSHISTFILE=-
 ######################################
 # activate Prezto framework
 ######################################
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+# source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 
 ######################################
@@ -185,7 +185,7 @@ rmd() {
 ######################################
 # Activate syntax highlighting this statement should be the last in the rc file
 ######################################
-source /Users/a3nv/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+# source /Users/a3nv/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
 #####################################
 # Custom commands
@@ -202,8 +202,8 @@ alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
         -sound Crystal"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+#export SDKMAN_DIR="$HOME/.sdkman"
+#[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh

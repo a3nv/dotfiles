@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/nfs/homes/iasonov/.cache/nvim/packer_hererocks/2.1.1713484068/share/lua/5.1/?.lua;/nfs/homes/iasonov/.cache/nvim/packer_hererocks/2.1.1713484068/share/lua/5.1/?/init.lua;/nfs/homes/iasonov/.cache/nvim/packer_hererocks/2.1.1713484068/lib/luarocks/rocks-5.1/?.lua;/nfs/homes/iasonov/.cache/nvim/packer_hererocks/2.1.1713484068/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/nfs/homes/iasonov/.cache/nvim/packer_hererocks/2.1.1713484068/lib/lua/5.1/?.so"
+local package_path_str = "/Users/assen/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?.lua;/Users/assen/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?/init.lua;/Users/assen/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?.lua;/Users/assen/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/assen/.cache/nvim/packer_hererocks/2.1.1725453128/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,32 +76,32 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["42header"] = {
     loaded = true,
-    path = "/nfs/homes/iasonov/.local/share/nvim/site/pack/packer/start/42header",
+    path = "/Users/assen/.local/share/nvim/site/pack/packer/start/42header",
     url = "https://github.com/42Paris/42header"
   },
-  ["dracula.nvim"] = {
+  catppuccin = {
     loaded = true,
-    path = "/nfs/homes/iasonov/.local/share/nvim/site/pack/packer/start/dracula.nvim",
-    url = "https://github.com/Mofiqul/dracula.nvim"
+    path = "/Users/assen/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/nfs/homes/iasonov/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/assen/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/nfs/homes/iasonov/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/assen/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/nfs/homes/iasonov/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/assen/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/nfs/homes/iasonov/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/assen/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }
