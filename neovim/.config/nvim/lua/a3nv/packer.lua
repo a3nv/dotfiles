@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
 --  use 'Mofiqul/dracula.nvim'
   use { 'catppuccin/nvim', as = 'catppuccin' }
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use 'lukas-reineke/indent-blankline.nvim' -- for visual indentation guides
   if packer_bootstrap then
 	require('packer').sync()
   end

@@ -3,7 +3,7 @@ return {
 	-- color_scheme = 'termnial.sexy',
 	-- color_scheme = 'Catppuccin Mocha',
 	color_scheme = 'Tokyo Night',
-	enable_tab_bar = true,
+	enable_tab_bar = false,
 	font_size = 15.0,
 	font = wezterm.font('JetBrains Mono'),
 	-- macos_window_background_blur = 40,
