@@ -6,5 +6,6 @@ return {
   require("a3nv.plugins.treesitter"),
   require("a3nv.plugins.colors"),
   require("a3nv.plugins.lsp-zero"),
+  require("a3nv.plugins.fugitive"),
 }
 
