@@ -28,8 +28,13 @@ return {
       lsp.ensure_installed({
         "jdtls", -- Java
         "clangd", -- C, C++
-        "typescript-lanuae-server", -- TypeScript
+        "ts_ls", -- TypeScript
         "kotlin_language_server", -- Kotlin
+		"cmake",
+		"dockerls",
+		"docker_compose_language_service",
+		"gradle_ls"
+
       })
       local cmp = require("cmp")
       cmp.setup({
