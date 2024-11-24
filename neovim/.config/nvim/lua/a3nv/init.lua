@@ -1,8 +1,5 @@
-require("a3nv.remap")
-require("a3nv.packer")
-require("a3nv.nvim-tree")
-require("a3nv.indent")
-require("a3nv.gitsigns")
+require("a3nv.lazy")
+require("a3nv.keymaps")
 vim.g.user42 = 'iasonov'
 vim.g.mail42 = 'iasonov@student.42prague.com'
 
