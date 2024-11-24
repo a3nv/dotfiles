@@ -7,5 +7,7 @@ return {
   require("a3nv.plugins.colors"),
   require("a3nv.plugins.lsp-zero"),
   require("a3nv.plugins.fugitive"),
+  require("a3nv.plugins.stdheader"),
+  require("a3nv.plugins.visual-multi"),
 }
 
