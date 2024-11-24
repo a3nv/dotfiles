@@ -28,7 +28,7 @@ return {
       lsp.ensure_installed({
         "jdtls", -- Java
         "clangd", -- C, C++
-        "tsserver", -- TypeScript
+        "typescript-lanuae-server", -- TypeScript
         "kotlin_language_server", -- Kotlin
       })
       local cmp = require("cmp")
