@@ -32,6 +32,9 @@ return {
 
         -- Toggle word diff
         vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>wd", "<cmd>Gitsigns toggle_word_diff<CR>", opts)
+
+		-- Reset hunk
+		vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>rh", "<cmd>Gitsigns reset_hunk<CR>", opts)
       end,
     }
   end,
