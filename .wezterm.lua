@@ -1,7 +1,8 @@
 local wezterm = require 'wezterm'
 return {
 	-- color_scheme = 'termnial.sexy',
-	-- color_scheme = 'Catppuccin Mocha',
+	-- color_scheme = 'Catppuccin Latte',
+	-- color_scheme = 'rose-pine-dawn',
 	color_scheme = 'Tokyo Night',
 	enable_tab_bar = false,
 	font_size = 15.0,

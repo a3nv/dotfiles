@@ -1,11 +1,17 @@
 return {
   "folke/tokyonight.nvim",
-  lazy = false, -- Load immediately
-  priority = 1000, -- Ensure it loads before other plugins
+  lazy = false,
+  priority = 1000,
+  opts = {
+    transparent = false,
+    terminal_colors = true,
+    styles = {
+      comments = { italic = true },
+      keywords = { italic = true },
+    },
+  },
   config = function()
     vim.cmd([[colorscheme tokyonight]])
-    --vim.cmd([[colorscheme tokyonight-day]])
   end,
-  opts = {}, -- Optional: customize the theme if needed
 }
 
