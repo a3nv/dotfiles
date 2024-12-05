@@ -1,6 +1,6 @@
 local wezterm = require 'wezterm'
 return {
-	-- color_scheme = 'termnial.sexy',
+	-- color_scheme = 'GitHub Dark',
 	-- color_scheme = 'Catppuccin Latte',
 	-- color_scheme = 'rose-pine-dawn',
 	color_scheme = 'Tokyo Night',
@@ -41,4 +41,4 @@ return {
 	    action = wezterm.action.OpenLinkAtMouseCursor,
 	  },
 	},
-}
+thub}

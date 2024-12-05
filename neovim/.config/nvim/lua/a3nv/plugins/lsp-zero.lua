@@ -36,6 +36,17 @@ return {
 		"gradle_ls"
 
       })
+      lsp.configure('kotlin_language_server', {
+        cmd = { 'kotlin-language-server' },
+        settings = {
+        kotlin = {
+          compiler = {
+            version = "2.1.0", 
+          }
+         }
+        }
+      })
+
       local cmp = require("cmp")
       cmp.setup({
         mapping = {
