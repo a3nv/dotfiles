@@ -1,9 +1,32 @@
 local wezterm = require 'wezterm'
+
 return {
-	-- color_scheme = 'GitHub Dark',
-	-- color_scheme = 'Catppuccin Latte',
+	--color_scheme = 'Github',
+	color_scheme = 'Catppuccin Latte',
 	-- color_scheme = 'rose-pine-dawn',
-	color_scheme = 'Tokyo Night',
+	--color_scheme = 'Tokyo Night',
+	-- colors = {
+ 	-- 	ansi = {
+    --        '#2c3e50', -- index 8: Bright Black (Gray)
+    --        '#e74c3c', -- index 9: Bright Red
+    --        '#27ae60', -- index 10: Bright Green
+    --        '#e67e22', -- index 11: Bright Yellow
+	-- 	   '#2980b9', -- index 12: Bright Blue
+    --        '#9b59b6', -- index 13: Bright Magenta
+    --        '#34495e', -- index 14: Bright Cyan
+    --        '#ecf0f1', -- index 15: Bright White
+	-- 	},
+    --      brights = {
+    --        '#2c3e50', -- index 8: Bright Black (Gray)
+    --        '#e74c3c', -- index 9: Bright Red
+    --        '#27ae60', -- index 10: Bright Green
+    --        '#e67e22', -- index 11: Bright Yellow
+	-- 	   '#2980b9', -- index 12: Bright Blue
+    --        '#9b59b6', -- index 13: Bright Magenta
+    --        '#34495e', -- index 14: Bright Cyan
+    --        '#ecf0f1', -- index 15: Bright White
+    --      },
+	-- },
 	enable_tab_bar = false,
 	font_size = 15.0,
 	font = wezterm.font('JetBrains Mono'),
