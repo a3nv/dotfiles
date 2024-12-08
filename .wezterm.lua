@@ -1,10 +1,10 @@
 local wezterm = require 'wezterm'
 
 return {
-	--color_scheme = 'Github',
-	color_scheme = 'Catppuccin Latte',
+	color_scheme = 'Github (base16)',
+	-- color_scheme = 'Catppuccin Latte',
 	-- color_scheme = 'rose-pine-dawn',
-	--color_scheme = 'Tokyo Night',
+	-- color_scheme = 'Tokyo Night',
 	-- colors = {
  	-- 	ansi = {
     --        '#2c3e50', -- index 8: Bright Black (Gray)

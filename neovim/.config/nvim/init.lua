@@ -32,5 +32,6 @@ vim.diagnostic.config({
 
 require("a3nv.lazy")
 
--- keepeing this at the end of the root init file, so to make sure this theme is the last to apply, some other plugins (e.g. nvim tree) might apply their own theme
-vim.cmd([[colorscheme catppuccin]])
+-- keepeing this at the end of the root init file, so to make sure this theme is the last to apply, some other plugins (e.g. nvim tree) might apply their own themevim
+vim.cmd([[colorscheme github_light]])
+--vim.cmd([[colorscheme catppuccin]])
