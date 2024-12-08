@@ -1,8 +1,8 @@
 local wezterm = require 'wezterm'
 
 return {
-	color_scheme = 'Github (base16)',
-	-- color_scheme = 'Catppuccin Latte',
+	-- color_scheme = 'GitHub',
+	color_scheme = 'Catppuccin Mocha',
 	-- color_scheme = 'rose-pine-dawn',
 	-- color_scheme = 'Tokyo Night',
 	-- colors = {
