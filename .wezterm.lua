@@ -2,7 +2,10 @@ local wezterm = require 'wezterm'
 
 return {
 	-- color_scheme = 'GitHub',
+	-- color_scheme = 'Catppuccin Frappe',
+	-- color_scheme = 'Catppuccin Macchiato',
 	color_scheme = 'Catppuccin Mocha',
+	-- color_scheme = 'Catppuccin Latte',
 	-- color_scheme = 'rose-pine-dawn',
 	-- color_scheme = 'Tokyo Night',
 	-- colors = {
@@ -30,8 +33,8 @@ return {
 	enable_tab_bar = false,
 	font_size = 15.0,
 	font = wezterm.font('JetBrains Mono'),
-	-- macos_window_background_blur = 40,
-	macos_window_background_blur = 30,
+	-- macos_window_background_blur = 75,
+	--macos_window_background_blur = 30,
 	
 	-- window_background_image = '/Users/omerhamerman/Downloads/3840x1080-Wallpaper-041.jpg',
 	-- window_background_image_hsb = {
@@ -40,8 +43,8 @@ return {
 	-- 	saturation = 0.5,
 	-- },
 	-- window_background_opacity = 0.92,
-	window_background_opacity = 1.0,
-	--window_background_opacity = 0.78,
+	-- window_background_opacity = 1.0,
+	-- window_background_opacity = 0.70,
 	-- window_background_opacity = 0.20,
 	window_decorations = 'RESIZE',
 	keys = {
