@@ -27,9 +27,9 @@ require("lazy").setup({
     -- import your plugins
     { import = "a3nv.plugins" },
   },
+  checker = { enabled = true },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  -- install = { colorscheme = { "github_dark", "habamax" } },
+  install = { colorscheme = { "catppuccin" } },
   -- automatically check for plugin updates
-  checker = { enabled = true },
 })

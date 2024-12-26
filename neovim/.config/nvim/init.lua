@@ -28,13 +28,3 @@ vim.diagnostic.config({
         border = "rounded", -- Make the border of the floating window more readable
     },
 })
-
-
-require("a3nv.lazy")
-
--- keepeing this at the end of the root init file, so to make sure this theme is the last to apply, some other plugins (e.g. nvim tree) might apply their own themevim
---vim.cmd([[colorscheme github_light]])
---vim.cmd([[colorscheme catppuccin-frappe]])
-vim.cmd([[colorscheme catppuccin-macchiato]])
---vim.cmd([[colorscheme catppuccin-macchiato]])
---vim.cmd([[colorscheme catppuccin-latte]])
