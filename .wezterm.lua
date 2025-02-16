@@ -3,8 +3,9 @@ local wezterm = require 'wezterm'
 return {
 	-- color_scheme = 'GitHub',
 	-- color_scheme = 'Catppuccin Frappe',
-	-- color_scheme = 'Catppuccin Macchiato',
-	color_scheme = 'Catppuccin Mocha',
+	color_scheme = 'Dracula (Official)',
+	--color_scheme = 'Catppuccin Macchiato',
+	-- color_scheme = 'Catppuccin Mocha',
 	-- color_scheme = 'Catppuccin Latte',
 	-- color_scheme = 'rose-pine-dawn',
 	-- color_scheme = 'Tokyo Night',

@@ -8,6 +8,6 @@ return {
   require("a3nv.plugins.fugitive"),
   require("a3nv.plugins.stdheader"),
   require("a3nv.plugins.visual-multi"),
-  require("a3nv.plugins.catppuccin"),
+  require("a3nv.plugins.dracula"),
 }
 

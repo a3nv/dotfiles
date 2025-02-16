@@ -46,6 +46,18 @@ return {
          }
         }
       })
+	  lsp.configure("clangd", {
+		  cmd = { "clangd", "--compile-commands-dir=." },
+		  settings = {
+			  clangd = {
+				  arguments = {
+					  "--header-insertion=never",
+					  "-I/usr/local/include",
+				  },
+			  },
+		  },
+	  })
+
 
       local cmp = require("cmp")
       cmp.setup({
