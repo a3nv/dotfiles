@@ -5,12 +5,12 @@ return {
 	-- color_scheme = 'Catppuccin Frappe',
 	-- color_scheme = 'Dracula (Official)',
 	-- color_scheme = 'JetBrains Darcula',
-	color_scheme = 'idea',
+	-- color_scheme = 'idea',
+	-- color_scheme = 'One Dark (Gogh)',
 	-- color_scheme = 'Catppuccin Macchiato',
 	-- color_scheme = 'Catppuccin Mocha',
 	-- color_scheme = 'Catppuccin Latte',
-	-- color_scheme = 'rose-pine-dawn',
-	-- color_scheme = 'Tokyo Night',
+	color_scheme = 'rose-pine',
 	-- colors = {
  	-- 	ansi = {
     --        '#2c3e50', -- index 8: Bright Black (Gray)
@@ -35,7 +35,14 @@ return {
 	-- },
 	enable_tab_bar = false,
 	font_size = 15.0,
-	font = wezterm.font('JetBrains Mono'),
+	-- font = wezterm.font('JetBrains Mono'),
+	font = wezterm.font('Hack Nerd Font'),
+	font_rules = {
+		{
+			intensity = "Bold",
+			font = wezterm.font("Hack Nerd Font", {weight="Bold"}),
+		},
+	},
 	--macos_window_background_blur = 75,
 	--macos_window_background_blur = 30,
 	
