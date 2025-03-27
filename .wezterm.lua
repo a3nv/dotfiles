@@ -2,10 +2,12 @@ local wezterm = require 'wezterm'
 
 return {
 	-- color_scheme = 'GitHub',
+	-- color_scheme = 'GruvboxDarkHard',
+	color_scheme = 'Gruvbox Dark (Gogh)',
 	-- color_scheme = 'Catppuccin Frappe',
 	-- color_scheme = 'Dracula (Official)',
 	-- color_scheme = 'JetBrains Darcula',
-	color_scheme = 'idea',
+	-- color_scheme = 'idea',
 	-- color_scheme = 'Catppuccin Macchiato',
 	-- color_scheme = 'Catppuccin Mocha',
 	-- color_scheme = 'Catppuccin Latte',
@@ -34,7 +36,7 @@ return {
     --      },
 	-- },
 	enable_tab_bar = false,
-	font_size = 15.0,
+	font_size = 12.0,
 	font = wezterm.font('JetBrains Mono'),
 	--macos_window_background_blur = 75,
 	--macos_window_background_blur = 30,
