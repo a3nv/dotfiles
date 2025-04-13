@@ -9,6 +9,6 @@ return {
   require("a3nv.plugins.stdheader"),
   require("a3nv.plugins.visual-multi"),
   require("a3nv.plugins.comment"),
-  require("a3nv.plugins.darcula"),
+  require("a3nv.plugins.kanagawa"),
 }
 
