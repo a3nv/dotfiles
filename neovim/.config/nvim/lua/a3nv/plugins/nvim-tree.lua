@@ -18,7 +18,7 @@ return {
 			},
 			view = {
 				side = "left",
-				width = 30,
+				width = 50,
 			},
 			hijack_netrw = true,
 			auto_reload_on_write = true,
