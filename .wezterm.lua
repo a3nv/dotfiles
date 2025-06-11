@@ -4,7 +4,7 @@ return {
 	-- color_scheme = 'GitHub',
 	-- color_scheme = 'Catppuccin Frappe',
 	-- color_scheme = 'Dracula (Official)',
-	color_scheme = 'One Dark (Gogh)',
+	-- color_scheme = 'One Dark (Gogh)',
 	-- color_scheme = 'One Light (Gogh)',
 	-- color_scheme = 'JetBrains Darcula',
 	-- color_scheme = 'idea',
