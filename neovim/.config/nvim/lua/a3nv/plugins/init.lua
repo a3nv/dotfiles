@@ -1,4 +1,5 @@
 return {
+  require("a3nv.plugins.tokyonight"),
   require("a3nv.plugins.gitsigns"),
   require("a3nv.plugins.indent"),
   require("a3nv.plugins.nvim-tree"),
@@ -9,6 +10,5 @@ return {
   require("a3nv.plugins.stdheader"),
   require("a3nv.plugins.visual-multi"),
   require("a3nv.plugins.comment"),
-  require("a3nv.plugins.catppuccin"),
 }
 
